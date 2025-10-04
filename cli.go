@@ -815,7 +815,7 @@ func main() {
 	currentSession = session
 
 	cmd := &cli.Command{
-		Name:  "app",
+		Name:  "cli",
 		Usage: "CLI application with authentication",
 		Commands: []*cli.Command{
 			{
